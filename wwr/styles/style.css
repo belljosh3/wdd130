@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a{
     text-align: center;
     color:aliceblue;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: azure;
@@ -23,11 +26,24 @@ nav a:hover {
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
-body{
+#logo_link {
+    padding-top: 5px;
+}
+body {
     background-color: antiquewhite;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+   margin: 0; 
 }
 header {
     background-color: rgba(20,30,13, .7);
@@ -37,9 +53,13 @@ header {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-.home-title{
+.home-title {
     color: black;
+    font-family: "Oswald", "Rock Salt", "sans-serif";
+    font-size: 2em;
+    margin-top: 50px;
 }
 h4 {
     color:black;
@@ -48,26 +68,42 @@ h4 {
     background-color: aqua;
     color: rgb(20,30,13);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid rgb(120, 148, 43);
 }
 .book:hover, .join:hover {
     background-color: azure;
     color: rgb(20,30,13);
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 #background {
     background-color: rgb(120, 148, 43);
 }
 .msg {
     background-color: rgba(20,30,13, .7);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: antiquewhite;
 }
 .msg p{
     color:azure;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: rgba(20,30,13, .7);
     color: aliceblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: aliceblue;
@@ -81,4 +117,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
