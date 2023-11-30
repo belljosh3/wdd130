@@ -35,7 +35,7 @@ h2{
     text-align: center;
     text-decoration: underline;
 }
-main {
+.pageone {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -81,4 +81,58 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
+}
+
+/* preservation subpage */
+
+.pagetwo {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.intro {
+    grid-column: 2/10;
+}
+.dehydrate {
+    grid-column: 2/5;
+    margin-top: 25px;
+    border: 10px solid #54AC21;
+}
+.dehydratepic {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.dehydratetxt {
+    text-align: center;
+}
+.pressure {
+    grid-column: 6/10;
+    margin-top: 25px;
+    border: 10px solid #54AC21;
+}
+.pressurepic {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25%;
+}
+.pressuretxt {
+    text-align: center;
+}
+.bath {
+    grid-column: 2/10;
+    margin-top: 25px;
+    border: 10px solid #54AC21;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.bathtxt {
+    grid-column: 1/4;
+    text-align: center;
+    margin-top: 10%;
+}
+.bathpic {
+    grid-column: 4/5;
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 5%;
 }
