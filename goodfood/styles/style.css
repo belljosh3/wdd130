@@ -136,3 +136,31 @@ footer .social img {
     margin-left: 45%;
     margin-bottom: 5%;
 }
+
+/* recipes subpage */
+
+.pagethree {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.recipeone {
+    grid-column: 2/7;
+}
+.veggies {
+    width: 80%;
+    grid-column: 7/10;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.recipetwo {
+    grid-column: 2/10;
+}
+.bchips {
+    width: 80%;
+    grid-column: 2/4;
+    margin-top: 20px;
+}
+.recipethree {
+    margin-top: 40px;
+    grid-column: 4/10;
+}

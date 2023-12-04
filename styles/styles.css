@@ -83,6 +83,7 @@ nav {
     text-decoration: none;
     display: block;
     text-align: left;
+    font-size: inherit;
 }
   
 /* Add a grey background color to dropdown links on hover */
