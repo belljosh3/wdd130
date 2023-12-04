@@ -24,7 +24,7 @@ nav a {
     padding: 35px;
 }
 nav a:hover {
-    background-color: #AABD8C;
+    background-color: #54AC21;
     color: black;
 }
 nav {
@@ -34,6 +34,7 @@ nav {
 h2{
     text-align: center;
     text-decoration: underline;
+    font-family: "Oswald", "Poppins", Helvetica, sans-serif;
 }
 .pageone {
     display: grid;
@@ -131,10 +132,12 @@ footer .social img {
     margin-top: 10%;
 }
 .bathpic {
+    width: 150%;
     grid-column: 4/5;
     margin-top: 5%;
     margin-left: 45%;
     margin-bottom: 5%;
+    margin-right: 10%;
 }
 
 /* recipes subpage */
